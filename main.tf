@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "Raminfra" {
 	ami = "ami-0c02fb55956c7d316" 
-	instance_type = "t2.micro"
+	instance_type = "t2.nano"
 }
